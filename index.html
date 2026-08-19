@@ -91,22 +91,22 @@
         </div>
       </div>
 
-      <!-- AI 考照輔導小助教 Spotlight Card -->
-      <div class="ai-assistant-card">
-        <div class="ai-card-content">
-          <div class="ai-avatar">🤖</div>
-          <div class="ai-info">
-            <h3>投資型保險商品 | 考照輔導小助教 | By 豪老師</h3>
-            <p>24 小時線上智慧解題！無論是「變額年金計算」、「高標法/點對點法指數連動」、「債券溢折價評價」或「CAPM 貝他值公式」，隨時為您精闢剖析概念與解題關鍵！</p>
-          </div>
+      <!-- ====================================================================
+           一、循序固定試卷（章節固定練習）
+           ==================================================================== -->
+      <div class="section-header">
+        <div class="section-title">
+          <span>📑</span> 一、循序固定試卷（十大章節分段精熟）
         </div>
-        <a class="btn-ai-action" href="https://chatgpt.com/g/g-6834094b8b348191a6bd8bb48b1628e5-tou-zi-xing-bao-xian-shang-pin-kao-zhao-fu-dao-xiao-zhu-jiao-by-hao-lao-shi" target="_blank" rel="noopener">
-          <span>開啟 AI 小助教</span> ➜
-        </a>
+        <div class="section-subtitle">依照官方章節順序，固定練習題目，地毯式逐題穩固觀念</div>
+      </div>
+
+      <div class="chapter-accordion" id="chapter-papers-container">
+        <!-- 由 JavaScript app.renderChapterPapers() 動態渲染 -->
       </div>
 
       <!-- ====================================================================
-           模組一：隨機模擬測驗 (Random Mock Exams)
+           二、隨機模擬測驗（分科全真模擬考）
            ==================================================================== -->
       <div class="section-header">
         <div class="section-title">
@@ -123,8 +123,8 @@
             <div class="exam-card-icon icon-sub1">📋</div>
             <div class="exam-card-title-group">
               <span class="exam-card-tag tag-sub1">第一科 · 489 題庫</span>
-              <h3 class="exam-card-title">投資型保險商品概要、金融體系概述</h3>
-              <p class="exam-card-desc">涵蓋第 1 章至第 4 章：保險概論、商品種類與特性、保單條款解析、銷售規範與自律。</p>
+              <h3 class="exam-card-title">第一科：投資型保險商品概要、金融體系概述</h3>
+              <p class="exam-card-desc">涵蓋第一章～第四章：保險概論、商品種類與特性、保單條款解析、銷售規範與自律。</p>
             </div>
           </div>
 
@@ -155,8 +155,8 @@
             <div class="exam-card-icon icon-sub2">📊</div>
             <div class="exam-card-title-group">
               <span class="exam-card-tag tag-sub2">第二科 · 511 題庫</span>
-              <h3 class="exam-card-title">投資學概要、債券與證券評價、投資組合管理</h3>
-              <p class="exam-card-desc">涵蓋第 5 章至第 10 章：租稅優惠、金融市場、債券評價、股票分析、投資組合理論、共同基金與衍生性商品。</p>
+              <h3 class="exam-card-title">第二科：投資學概要、債券與證券之評價分析、投資組合管理</h3>
+              <p class="exam-card-desc">涵蓋第五章～第十章：租稅優惠、金融市場、債券評價、股票分析、投資組合理論、共同基金與衍生性商品。</p>
             </div>
           </div>
 
@@ -212,27 +212,13 @@
       </div>
 
       <!-- ====================================================================
-           模組二：循序固定試卷（章節精熟專區）
-           ==================================================================== -->
-      <div class="section-header">
-        <div class="section-title">
-          <span>📑</span> 一、循序固定試卷（十大章節分段精熟）
-        </div>
-        <div class="section-subtitle">依照官方章節順序，地毯式逐題穩固觀念</div>
-      </div>
-
-      <div class="chapter-accordion" id="chapter-papers-container">
-        <!-- 由 JavaScript app.renderChapterPapers() 動態渲染 -->
-      </div>
-
-      <!-- ====================================================================
-           模組三：智慧錯題本專區 (Smart Error Notebook)
+           三、智慧錯題本專區 (Smart Error Notebook)
            ==================================================================== -->
       <div class="section-header">
         <div class="section-title">
           <span>📕</span> 三、智慧錯題本專區（弱點重複強化）
         </div>
-        <div class="section-subtitle">自動收集測驗中答錯與漏做題目，針對薄弱落點重點突破</div>
+        <div class="section-subtitle">系統針對答錯或漏做的題目，針對落點重複強化</div>
       </div>
 
       <div class="mode-grid">
@@ -241,7 +227,7 @@
             <div class="exam-card-icon" style="color:var(--color-danger); background:var(--color-danger-bg); border-color:rgba(244, 63, 94, 0.4);">🎯</div>
             <div class="exam-card-title-group">
               <h3 class="exam-card-title">智慧錯題強化與弱點重測</h3>
-              <p class="exam-card-desc">將平時練習與模擬考中答錯或遺漏的題目進行集中重測。測驗完畢掌握觀念後，可隨時一鍵移出錯題本。</p>
+              <p class="exam-card-desc">平時練習與模擬考中答錯或遺漏的題目將自動彙整於此。可隨時針對弱點發起重測，觀念掌握後一鍵移出錯題本。</p>
             </div>
           </div>
 
@@ -260,6 +246,29 @@
             </button>
           </div>
         </div>
+      </div>
+
+      <!-- ====================================================================
+           四、AI 考照輔導小助教專區
+           ==================================================================== -->
+      <div class="section-header">
+        <div class="section-title">
+          <span>🤖</span> 四、AI 考照輔導小助教
+        </div>
+        <div class="section-subtitle">投資型保險商品 | 考照輔導小助教 | By 豪老師</div>
+      </div>
+
+      <div class="ai-assistant-card" style="margin-bottom: 2rem;">
+        <div class="ai-card-content">
+          <div class="ai-avatar">🤖</div>
+          <div class="ai-info">
+            <h3>投資型保險商品 | 考照輔導小助教 | By 豪老師</h3>
+            <p>24 小時線上智慧解題！無論是「變額年金計算」、「高標法/點對點法指數連動」、「債券溢折價評價」或「CAPM 貝他值公式」，隨時為您精闢剖析概念與解題關鍵！</p>
+          </div>
+        </div>
+        <a class="btn-ai-action" href="https://chatgpt.com/g/g-6834094b8b348191a6bd8bb48b1628e5-tou-zi-xing-bao-xian-shang-pin-kao-zhao-fu-dao-xiao-zhu-jiao-by-hao-lao-shi" target="_blank" rel="noopener">
+          <span>開啟 AI 小助教</span> ➜
+        </a>
       </div>
 
     </section>
