@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+node_modules/
+scratch/
+test_*.py
+test_*.js
+verify_*.py
+scratch_*.py
