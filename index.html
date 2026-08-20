@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="index.css?v=20260821_2">
 </head>
 <body>
 
@@ -281,31 +281,34 @@
         <div class="section-title">
           <span>🎧</span> 五、線上課程 Podcast（YouTube 影音專區）
         </div>
-        <div class="section-subtitle">通勤、運動、休息隨時聽 · 豪老師投資型保險商品全精解影音 Podcast</div>
+        <div class="section-subtitle">通勤、運動、休息隨時聽 · 豪老師投資型保險全精解影音 Podcast</div>
       </div>
 
-      <div class="course-podcast-card" style="margin-bottom: 2rem;">
-        <div class="course-card-top">
-          <div class="course-header-info">
-            <div class="course-avatar">🎙️</div>
-            <div class="course-titles">
+      <div class="podcast-spotlight-card">
+        <!-- 頂部資訊與按鈕 -->
+        <div class="podcast-card-header">
+          <div class="podcast-header-left">
+            <div class="podcast-avatar">🎙️</div>
+            <div class="podcast-info">
               <h3>投資型保險商品 | 線上課程 Podcast | By 豪老師</h3>
               <p>官方 YouTube 影音精華播放清單！涵蓋考照重點章節精講、觀念剖析與應試技巧，隨點隨聽，助您輕鬆建立穩固觀念架構。</p>
             </div>
           </div>
-          <a class="btn-youtube-action" href="https://www.youtube.com/playlist?list=PLmr7lEPLWvVaUpXaA6L7EVmkAwqLEK_bI" target="_blank" rel="noopener">
+          <a class="btn-podcast-action" href="https://www.youtube.com/playlist?list=PLmr7lEPLWvVaUpXaA6L7EVmkAwqLEK_bI" target="_blank" rel="noopener">
             <span>▶️ 在 YouTube 開啟完整播放清單</span> ➜
           </a>
         </div>
 
-        <div class="course-tags-row">
-          <span class="badge-tag accent">📺 YouTube 官方頻道</span>
+        <!-- 標籤特色 -->
+        <div class="podcast-badges-row">
+          <span class="badge-tag accent">📺 YouTube 官方播放清單</span>
           <span class="badge-tag success">🎧 隨選隨聽 Podcast 模式</span>
           <span class="badge-tag warning">💡 考前衝刺必備核心精華</span>
           <span class="badge-tag">💎 100% 免費公開觀看</span>
         </div>
 
-        <div class="video-responsive-wrap">
+        <!-- 等比 YouTube 播放清單嵌入 -->
+        <div class="podcast-player-container">
           <iframe 
             src="https://www.youtube-nocookie.com/embed/videoseries?list=PLmr7lEPLWvVaUpXaA6L7EVmkAwqLEK_bI" 
             title="投資型保險商品 線上課程 Podcast | By 豪老師" 
@@ -564,7 +567,7 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- 題庫資料與核心腳本 (支援 file:/// 本地直開與 GitHub Pages 靜態託管) -->
-  <script src="inv_questions.js"></script>
-  <script src="app.js"></script>
+  <script src="inv_questions.js?v=20260821_2"></script>
+  <script src="app.js?v=20260821_2"></script>
 </body>
 </html>
