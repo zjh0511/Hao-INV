@@ -267,6 +267,16 @@ class ExamEngine {
     }
   }
 
+  scrollToCourse() {
+    this.switchView('view-home');
+    setTimeout(() => {
+      const section = document.getElementById('section-course');
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 50);
+  }
+
   shuffleArray(arr) {
     const copy = [...arr];
     for (let i = copy.length - 1; i > 0; i--) {

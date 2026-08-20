@@ -42,7 +42,11 @@
 - 網址：[https://chatgpt.com/g/g-6834094b8b348191a6bd8bb48b1628e5-tou-zi-xing-bao-xian-shang-pin-kao-zhao-fu-dao-xiao-zhu-jiao-by-hao-lao-shi](https://chatgpt.com/g/g-6834094b8b348191a6bd8bb48b1628e5-tou-zi-xing-bao-xian-shang-pin-kao-zhao-fu-dao-xiao-zhu-jiao-by-hao-lao-shi)
 - 在每道題目的檢討視圖與測驗畫面中，點擊 **「🤖 請教豪老師」** 即可自動將完整題目、選項與標準答案複製到剪貼簿，並一鍵開啟 AI 助教為您深度解惑！
 
-### 五、極致測驗體驗與介面設計
+### 五、線上課程 Podcast（YouTube 影音專區）
+- 官方 YouTube 影音精華播放清單：[投資型保險商品 線上課程 Podcast](https://www.youtube.com/playlist?list=PLmr7lEPLWvVaUpXaA6L7EVmkAwqLEK_bI)
+- 內建響應式 YouTube 播放清單播放器，支援隨點隨聽、通勤/運動隨時聽音頻 Podcast。
+
+### 六、極致測驗體驗與介面設計
 - **深色 / 淺色主題** 一鍵無縫切換。
 - **倒數計時器** 與時間預警動畫。
 - **答題地圖網格 (Palette)**：即時視覺化題目狀態（已答、未答、標記題、當前題）。
